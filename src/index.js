@@ -1,4 +1,4 @@
-const accumulatorResult = (e) => {
+const accumulatorResult = () => {
 	//initializing a variable to be equal to the (#results) P-tag's textcontent
 	let counter = document.querySelector('#results').textContent;
 	//initializing a variable to be equal to button(#add-one)
@@ -10,7 +10,7 @@ const accumulatorResult = (e) => {
 	//connecting addEventListener into button with event type "click",
 	//while also  calling function "e" (accumulatorResult)
 
-	button.addEventListener('click', (e) => {
+	button.addEventListener('click', () => {
 		// In-Line function to contain new conditions
 		//adding +1 to counter each click, and since counter is equal to
 		// text content of p tag it will add +1 to the textContent
