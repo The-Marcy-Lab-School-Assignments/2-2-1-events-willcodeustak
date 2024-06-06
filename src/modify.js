@@ -1,4 +1,5 @@
 // These are your event handlers
+/** FEEDBACK: Great job getting all test cases to pass, in the future, clean up your code by removing any commented out code! */
 const clickCounterHandler = (event) => {
 	console.log(event.target);
 	const button = event.target;
